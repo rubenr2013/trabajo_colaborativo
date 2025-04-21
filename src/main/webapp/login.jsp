@@ -68,10 +68,10 @@
     <div class="container">
         <h2>Registro</h2>
         <form class="centered-form" method="post">
-            <label for="nombre">Nombre:</label>
+            <label for="nombre">Nombres:</label>
             <input type="text" id="nombre" name="nombre" required><br>
 
-            <label for="apellido">Apellido:</label>
+            <label for="apellido">Apellidos:</label>
             <input type="text" id="apellido" name="apellido" required><br>
 
             <label for="correo">Correo:</label>
@@ -154,6 +154,6 @@
                 response.sendRedirect("sesiones.jsp");
             }
         %>
-    </div>
+    </div>  
 </body>
 </html>
